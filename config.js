@@ -1,5 +1,5 @@
 module.exports = {
-    LINKEDIN_CLIENT_ID: '777n2493xn0icj',
-    LINKEDIN_SECRET_KEY: 'WQSrrwEJUKYbOXsi',
-    PROD_URL: '{enter your production url here!}'
+    LINKEDIN_CLIENT_ID: 'YOUR LINKEDIN CLIENT ID',
+    LINKEDIN_SECRET_KEY: 'YOUR LINKEDIN SECRET KEY',
+    PROD_URL: 'enter your production url here!'
 };

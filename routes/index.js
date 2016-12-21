@@ -1,6 +1,7 @@
 var express = require('express');
 var passport = require('passport');
 var router = express.Router();
+var config = require('../config');
 
 var ensureAuthenticated = function(req, res, next) {
   if (req.isAuthenticated()) { return next(); }
@@ -13,7 +14,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/accident-form', ensureAuthenticated, function(req, res) {
-  res.render('form', {user: JSON.stringify(req.user)});
+  res.render('form', {user: JSON.stringify(req.user), form: {config.GOOGLE_FORM_LINK}});
 });
 
 // GET /auth/linkedin
