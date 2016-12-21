@@ -30,7 +30,7 @@ app.use(logger('dev'));
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: false }));
     app.use(session({
-        secret: 'auto angels',
+        secret: '12345',
         resave: false,
         saveUninitialized: true
     }));
