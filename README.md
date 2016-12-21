@@ -3,9 +3,12 @@ This is boilerplate for a simple web app, that allows for user's to sign in via 
 
 ### Getting Started
 in the command line:
-`cd /path/to/where/you/save/projects`
-`git clone https://github.com/Beeze/web-hosted-google-form.git`
-`cd web\ hosted\ google\ form`
+
+```
+cd /path/to/where/you/save/projects
+git clone https://github.com/Beeze/web-hosted-google-form.git
+cd web\ hosted\ google\ form
+```
 
 ### Configurations
 Save the image you want as your homepage's background as `bg.jpg` in `public/images`
